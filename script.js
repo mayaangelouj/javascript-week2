@@ -66,13 +66,14 @@ let burger = {
 // if onions or pickles are present
 if (burger.onion || burger.pickles) {
     console.log('Refund please');
-} else if (!burger.cheese || !burger.bacon || !bacon.egg){ //if my toppings are missing
+    let naptime = false;
+} else if (!burger.cheese){ //if my toppings are missing
     console.log('Refund please');
 } else if (burger.back == 'big') {
     console.log('Your hospital bill is $999,999,999,999.98');
 }
 
-
+console.log(naptime);
 //  {
 //     console.log('nom nom nom...');
 // }
