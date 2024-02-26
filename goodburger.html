@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Burger</title>
+</head>
+<body>
+    <h1>Welcome to Good Burger, Home of the Good Burger, Can I Take Your ORDER?!</h1>
+    <form>
+        <div>
+            <label for="meat">
+                How many patties?
+                <input name="meat" type="number" placeholder="1"/>
+            </label>
+        </div>
+        <div>
+            <label for="onions">
+                Onions?
+            </label>
+            Yes<input name="onions" type="radio" value="onions" />
+            No <input name="onions" type="radio" value="no onions" checked/>
+        </div>
+        <div>
+            <label for="pickles">
+                Pickles?
+            </label>
+            Yes<input name="pickles" type="radio" value="pickles" />
+            No <input name="pickles" type="radio" value="no pickles" checked/>
+        </div>
+        <div>
+            <label for="cheese">
+                Cheese?
+            </label>
+            Yes<input name="cheese" type="radio" value="cheese" />
+            No <input name="cheese" type="radio" value="no cheese" checked/>
+        </div>
+        <div>
+            <label for="bacon">
+                bacon?
+            </label>
+            Yes<input name="bacon" type="radio" value="bacon" />
+            No <input name="bacon" type="radio" value="no bacon" checked/>
+        </div>
+        <div>
+            <label for="egg">
+                egg?
+            </label>
+            Yes<input name="egg" type="radio" value="egg" />
+            No <input name="egg" type="radio" value="no egg" checked/>
+        </div>
+        <input type="submit" value="Place Order" />
+    </form>
+    <!-- 
+        let burger = {
+    meat: 1,
+    onions: 0,
+    pickles: 0,
+    cheese: 1,
+    bacon: 1,
+    back: 'big',
+    egg: 1
+}
+     -->
+</body>
+</html>
