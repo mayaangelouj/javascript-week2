@@ -4,7 +4,7 @@ If you haven't already, FORK this repo
 
 In the Assignment folder, add your code for the following assignment.
 
-This is due Monday March 4. We will do a show and tell style review, similar to your CodeTalks
+This is due Friday March 8 @ 11:59. We will do a show and tell style review, similar to your CodeTalks
 
 ## Requirements
 
@@ -45,6 +45,8 @@ They need:
     - The user should enter an email that becomes the FROM: email
     - The email should go TO: your imaginary business email
     - The email should CC: your email
+    - The subject of the email should contain a randomly generated number
+        - Example: Hair Appointment #1350
     - When the user submits a correctly filled out form, the page should not refresh
     - When the user submits a correctly filled out form, the form should be replaced with a link or button that directs them to return to the homepage
     - The return to the homepage after a successful message can be automated with Javascript after a 5 second timeout

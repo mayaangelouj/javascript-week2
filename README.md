@@ -29,9 +29,13 @@ Files
 
 Bonus
 
+pre and post increment examples
+
+Files
+
     additional_scripts.js
 
-    pre and post increment examples
+    
 
 Recording: 
 https://us02web.zoom.us/rec/share/yS8Br-8hsXNR-Alu2NqS_2DilkcQi9HJEVHSjGj8mNZjm9jLKbgX1HG1s7qstDA7.sfxy7rXC2PnsKERo
@@ -39,8 +43,37 @@ Passcode: *^2h2DtV
 
 ## Tuesday
 
-If & Switch Statement 
+If & Switch Statement Review
 
-Loops
+Loops - Includes if statement practice
+
+Each example in the js file has been commented out. Be sure to comment/uncomment as YOU need to to run the code
+
+File:
+
+    loops.js
+
+* while
+
+* do while
+
+* for
+    - Array creation, usage, and syntax
+    - Experiment with different ways to increment/decrement
+    - Use if statements to dynamically choose output
+
+Bonus: 
+
+    Installing NodeJS
 
 Recording:
+https://us02web.zoom.us/rec/share/v48CcJpH5VSt4yhoVA8dkjfbtQ--I5XKJZ_SWo4jCDOwPtc2CEaH29mb4MNy-rdJ.Lhp_dWf7OQHplpyN
+Passcode: bH$8Nu^a
+
+## Wednesday
+
+Keywords and Error Handling
+
+## Thursday
+
+Website Project - See Assignment folder

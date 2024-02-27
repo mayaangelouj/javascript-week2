@@ -57,7 +57,7 @@
 let students = ['Arlindo', 'Dom', 'Ebony', 'JR', 'Brian'];
 for (let index = 0; index < students.length; index++) {
     console.log("Name: " + students[index] + " at index[" + index + "]");
-    if (index == 0) {
+    /*if (index == 0) {
         console.log('this is an abstract name, no actual student is being referenced for respect of person');
     } else if (index == 1) {
         console.log('Sup Dom, when is Fast 11 coming out?');
@@ -68,6 +68,26 @@ for (let index = 0; index < students.length; index++) {
     } else if (index == 4) {
         console.log("ummmmmmm");
         console.log("Did you buy some Bitcoin today?");
+    }*/
+}
+console.log('The countdown begins now');
+for (let index = students.length; index >= 0; index--) {
+    console.log("Name: " + students[index] + " at index[" + index + "]");
+}
+console.log('Iterate by 2') //index = index + 2
+for (let index = 0; index < students.length; index += 2) {
+    console.log("Name: " + students[index] + " at index[" + index + "]");
+}
+console.log('log odd index students');
+for(let index = 0; index < students.length; index++) {
+    if (index % 2 == 1) {
+        console.log("Name: " + students[index] + " at index[" + index + "]");
+    }
+}
+console.log('log even indexs');
+for (let index = 0; index < students.length; index++) {
+    if (index % 2 == 0) {
+        console.log("Name: " + students[index] + " at index[" + index + "]");
     }
 }
 
