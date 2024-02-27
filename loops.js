@@ -36,17 +36,39 @@
 // let x4 = Math.floor(Math.random() * 10);
 
 // while loop part 2
-let arrived = false;
+// let arrived = false;
 
-function drive() {
-    console.log('on the road again');
-    let GPS = Math.round(Math.random() * 10) == 7;
-    if (GPS) {
-        arrived = true;
-    } 
+// function drive() {
+//     console.log('on the road again');
+//     let GPS = Math.round(Math.random() * 10) == 7;
+//     if (GPS) {
+//         arrived = true;
+//     } 
+// }
+
+// while (!arrived) {
+//     drive();
+// }
+// console.log('You have arrived');
+
+// students.infinity = Number.MAX_SAFE_INTEGER;
+// console.log(students.infinity);
+
+let students = ['Arlindo', 'Dom', 'Ebony', 'JR', 'Brian'];
+for (let index = 0; index < students.length; index++) {
+    console.log("Name: " + students[index] + " at index[" + index + "]");
+    if (index == 0) {
+        console.log('this is an abstract name, no actual student is being referenced for respect of person');
+    } else if (index == 1) {
+        console.log('Sup Dom, when is Fast 11 coming out?');
+    } else if (index == 2) {
+        console.log("What's lunch today?");
+    } else if (index == 3) {
+        console.log("When's the internship starting?");
+    } else if (index == 4) {
+        console.log("ummmmmmm");
+        console.log("Did you buy some Bitcoin today?");
+    }
 }
 
-while (!arrived) {
-    drive();
-}
-console.log('You have arrived');
+
