@@ -74,6 +74,23 @@ Passcode: bH$8Nu^a
 
 Keywords and Error Handling
 
+File: 
+
+    loop-keywords.js
+
+- see how break and continue alter your trip to Nashville
+
+- Read the comments for directions on running the code
+
+
+File: 
+
+    errors.js
+
+- try, catch, finally examples
+
+Remember, all of these files are text....
+
 ## Thursday
 
 Website Project - See Assignment folder
