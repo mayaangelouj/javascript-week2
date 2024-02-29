@@ -31,6 +31,12 @@ They need:
 * A Landing Page
     - 1 Banner Image
     - A tagline that briefly describes what they do in no more than 3 sentences
+    - welcome prompt box
+    - name on a new button
+    - new button makes an alert
+    - alert close triggers new HTML button
+    - new button 
+
 
 * About Page
     - 2-3 paragraphs about the client
